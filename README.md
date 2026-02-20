@@ -34,6 +34,7 @@ Users can upload their resume PDF, paste a job description, and receive:
 ---
 
 ## 📂 Project Structure
+```md
 backend/
 │
 ├── main.py
@@ -43,6 +44,7 @@ backend/
 │ └── pdf.py
 ├── .env
 └── requirements.txt
+```
 
 ---
 
