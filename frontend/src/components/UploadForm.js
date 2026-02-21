@@ -5,7 +5,7 @@ import { useState } from "react";
 export default function UploadForm() {
   const [file, setFile] = useState(null);
   const [job, setJob] = useState("");
-  const [result, setResult] = useState(null);
+  // const [result, setResult] = useState(null);
   const [loading, setLoading] = useState(false);
 
   const handleSubmit = async (e) => {
@@ -23,7 +23,7 @@ export default function UploadForm() {
     setLoading(true);
 
     try {
-      const res = await fetch("http://127.0.0.1:8000/analyze", {
+      const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/analyze`, {
         method: "POST",
         body: formData,
       });
@@ -65,7 +65,7 @@ export default function UploadForm() {
 
       </form>
 
-      {result && (
+      {/* {result && (
         <div className="border p-4">
 
           <h2>ATS Score: {result.ats_score}</h2>
@@ -92,7 +92,7 @@ export default function UploadForm() {
           </ul>
 
         </div>
-      )}
+      )} */}
     </div>
   );
 }
