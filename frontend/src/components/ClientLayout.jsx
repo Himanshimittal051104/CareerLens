@@ -8,7 +8,8 @@ export default function ClientLayout({ children }) {
   const pathname = usePathname();
 
   const backgroundColors = {
-    "/": "bg-gradient-to-br from-emerald-100 via-sky-100 to-violet-200",
+    // "/": "bg-gradient-to-br from-emerald-100 via-sky-100 to-violet-200",
+    "/":"bg-emerald-100",
     "/analyze":"bg-gradient-to-br from-purple-200 to-pink-200"
   };
 

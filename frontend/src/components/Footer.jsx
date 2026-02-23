@@ -36,7 +36,7 @@ export default function Footer() {
                 <div>
                     <h3 className="font-semibold text-white mb-4">Company</h3>
                     <ul className="space-y-2 text-sm">
-                         <li  onClick={() => scrollToSection("about")} className="hover:text-white cursor-pointer">About</li>
+                        <li><Link href="/about" className="hover:text-white ">About</Link></li>
                         <li><Link href="/" className="hover:text-white ">Home</Link></li>
                     </ul>
                 </div>

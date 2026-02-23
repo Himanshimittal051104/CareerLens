@@ -3,6 +3,7 @@ import UploadForm from "../components/UploadForm";
 import Link from "next/link";
 import Card from "@/components/Card";
 import Questions from "@/components/Questions";
+import About from "@/components/About";
 export default function Home() {
   const scrollToSection = (id) => {
   const element = document.getElementById(id);
@@ -34,6 +35,7 @@ export default function Home() {
         </div>
       </div>
       <div id="features"><Card /></div>
+      <About/>
       <div id="faq"><Questions/></div>
     </main>
   );

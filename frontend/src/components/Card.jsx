@@ -3,7 +3,7 @@
 import Link from "next/link";
 export default function Card() {
     return (
-        <div className=" bg-purple-100 min-h-screen px-32 flex flex-col items-center" >
+        <div className=" bg-pink-100 min-h-screen px-32 flex flex-col items-center" >
             <h1 className="text-5xl mt-4 font-extrabold text-slate-900 pt-48 text-center">
                 Powerful AI Features to Optimize Your Resume
             </h1>
