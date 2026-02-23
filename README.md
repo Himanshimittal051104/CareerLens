@@ -1,4 +1,4 @@
-#<p> 
+# <p> 
 <img width="100" height="100" alt="logo" src="https://github.com/user-attachments/assets/2e26ee9d-b094-4594-82ea-3085d63c69c0" />
 <span>CareerLens – AI Resume Analyzer</span>
 </p>
