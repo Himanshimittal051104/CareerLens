@@ -1,21 +1,28 @@
 import Link from "next/link";
+import { useRouter, usePathname } from "next/navigation";
 
 export default function Footer() {
-    const scrollToSection = (id) => {
-        const element = document.getElementById(id);
-        if (element) {
-            element.scrollIntoView({ behavior: "smooth" });
+      const router = useRouter();
+      const pathname = usePathname();
+    
+      const scrollToSection = async (id) => {
+        if (pathname !== "/") {
+          await router.push(`/#${id}`);
+          return;
         }
-    };
+    
+        const element = document.getElementById(id);
+        element?.scrollIntoView({ behavior: "smooth" });
+      };
     return (
         <footer className="bg-slate-900 text-slate-300 px-32">
             <div className=" mx-auto px-10 py-16 grid md:grid-cols-4 gap-10">
 
                 {/* Brand */}
                 <div>
-                    <h2 className="text-2xl font-bold text-[rgba(210,232,35,1)]">
+                    <Link href="/" className="text-2xl font-bold text-[rgba(210,232,35,1)]">
                         CareerLens
-                    </h2>
+                    </Link>
                     <p className="mt-4 text-sm leading-relaxed">
                         AI-powered resume analysis platform helping you optimize your resume,
                         improve ATS compatibility, and land interviews faster.
