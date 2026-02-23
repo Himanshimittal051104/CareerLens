@@ -1,9 +1,10 @@
 # <p align="center">
   <img src="https://raw.githubusercontent.com/Himanshimittal051104/CareerLens/main/frontend/public/logo.png" height="60" style="vertical-align: middle; margin-right: 10px;" />
   <span style="font-size:34px;font-weight:700;">CareerLens</span>
+  <p align="center">AI Resume Analyzer</p>
 </p>
 
-<p align="center">AI Resume Analyzer</p>
+
 <p> 
 <img width="100" height="50" alt="logo" src="https://github.com/user-attachments/assets/2e26ee9d-b094-4594-82ea-3085d63c69c0" />
 <span>CareerLens – AI Resume Analyzer</span>
