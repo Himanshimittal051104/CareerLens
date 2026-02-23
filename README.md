@@ -77,10 +77,10 @@ Protected routes for analysis & results
 4. Backend extracts resume text
 5. AI compares resume with job description
 6. Generates:
-  - ATS Score
-  - Strengths
-  - Missing Skills
-  - Resume Improvement Suggestions
+   - ATS Score
+   - Strengths
+   - Missing Skills
+   - Resume Improvement Suggestions
 7.User is redirected to a dedicated Result page
 
 ---
