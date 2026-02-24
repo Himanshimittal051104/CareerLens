@@ -1,4 +1,4 @@
-# CareerLens — AI Resume Analyzer
+# CareerLens — AI-Powered Resume Analyzer
 
 CareerLens is a full-stack AI-powered resume analysis platform that helps job seekers evaluate how well their resume matches a job description and receive actionable improvement suggestions. It simulates ATS-style matching and provides insights to improve resume quality and hiring chances.
 
@@ -76,12 +76,12 @@ Protected routes for analysis & results
 3. Pastes job description
 4. Backend extracts resume text
 5. AI compares resume with job description
-### 6. Generates:
-  - ATS Score
-  - Strengths
-  - Missing Skills
-  - Resume Improvement Suggestions
-7.User is redirected to a dedicated Result page
+6. Generates:
+   - ATS Score
+   - Strengths
+   - Missing Skills
+   - Resume Improvement Suggestions
+ 7. User is redirected to a dedicated Result page
 
 ---
 
@@ -143,33 +143,6 @@ git clone https://github.com/Himanshimittal051104/CareerLens.git
 cd CareerLens
 ```
 
-### Start Backend
-
-Go to backend folder:
-```bash
-cd backend
-```
-
-Install dependencies:
-```bash
-pip install -r requirements.txt
-```
-
-Start backend server:
-```bash
-uvicorn main:app --reload
-```
-
-Backend will run at:
-```text
-http://127.0.0.1:8000
-```
-
-Create .env.local:
-```text
-GEMINI_API_KEY=your_api_key
-```
-
 ### Start Frontend
 
 Go to frontend folder:
@@ -198,6 +171,33 @@ NEXTAUTH_SECRET=your_secret
 NEXTAUTH_URL=http://localhost:3000
 GOOGLE_CLIENT_ID=your_id
 GOOGLE_CLIENT_SECRET=your_secret
+```
+
+### Start Backend
+
+Go to backend folder:
+```bash
+cd backend
+```
+
+Install dependencies:
+```bash
+pip install -r requirements.txt
+```
+
+Start backend server:
+```bash
+uvicorn main:app --reload
+```
+
+Backend will run at:
+```text
+http://127.0.0.1:8000
+```
+
+Create .env.local:
+```text
+GEMINI_API_KEY=your_api_key
 ```
 
 ---
