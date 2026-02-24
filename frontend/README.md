@@ -110,9 +110,9 @@ GOOGLE_CLIENT_SECRET=your_secret
 
 ## 📸 Screenshots
 
-![Home Page](frontend/public/screenshots/home.png)
-![Analyze Resume Page](frontend/public/screenshots/analyze.png)
-![Result](frontend/public/screenshots/result.png)
+![Home Page](public/screenshots/home.png)
+![Analyze Resume Page](public/screenshots/analyze.png)
+![Result](public/screenshots/result.png)
 
 ---
 
